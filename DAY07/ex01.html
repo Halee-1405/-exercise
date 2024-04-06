@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinh viên UDU</title>
+</head>
+<body>
+
+<h1>Các Sinh viên UDU</h1>
+
+<!-- Sử dụng vòng lặp for -->
+<h2>Vòng lặp for:</h2>
+<ul id="forLoopStudents"></ul>
+
+<!-- Sử dụng vòng lặp while -->
+<h2>Vòng lặp while:</h2>
+<ul id="whileLoopStudents"></ul>
+
+<!-- Sử dụng vòng lặp do while -->
+<h2>Vòng lặp do while:</h2>
+<ul id="doWhileLoopStudents"></ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Sử dụng vòng lặp for
+  var forLoopStudents = document.getElementById("forLoopStudents");
+  for (var i = 1; i <= 10; i++) {
+    var listItem = document.createElement("li");
+    listItem.textContent = "Sinh viên UDU " + i;
+    forLoopStudents.appendChild(listItem);
+  }
+
+  // Sử dụng vòng lặp while
+  var whileLoopStudents = document.getElementById("whileLoopStudents");
+  var j = 1;
+  while (j <= 10) {
+    var listItem = document.createElement("li");
+    listItem.textContent = "Sinh viên UDU " + j;
+    whileLoopStudents.appendChild(listItem);
+    j++;
+  }
+
+  // Sử dụng vòng lặp do while
+  var doWhileLoopStudents = document.getElementById("doWhileLoopStudents");
+  var k = 1;
+  do {
+    var listItem = document.createElement("li");
+    listItem.textContent = "Sinh viên UDU " + k;
+    doWhileLoopStudents.appendChild(listItem);
+    k++;
+  } while (k <= 10);
+});
+</script>
+
+</body>
+</html>

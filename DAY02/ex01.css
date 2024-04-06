@@ -1,0 +1,13 @@
+* {
+    color: blueviolet;
+}
+
+/* Màu cho tất cả file dc nhúng -universal */
+
+li {
+    color: brown !important
+}
+
+li {
+    color: black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tính tổng các số nguyên dương đến khi tổng >= 100</title>
+</head>
+<body>
+
+<h1>Tính tổng các số nguyên dương từ 1 đến n đến khi tổng >= 100</h1>
+
+<p id="result"></p>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var n = 1;
+  var sum = 0;
+
+  while (sum < 100) {
+    sum += n;
+    n++;
+  }
+
+  document.getElementById("result").textContent = "Tổng các số nguyên dương từ 1 đến " + (n - 1) + " là: " + sum;
+});
+</script>
+
+</body>
+</html>
