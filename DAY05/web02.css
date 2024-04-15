@@ -1,0 +1,87 @@
+body {
+    background-color: #8fc3e9; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-signin {
+    border-radius: 30px;
+    background-color: #fff;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 150px 50px 20px 70px;
+    box-sizing: border-box;
+}
+
+.form-signin__header {
+    padding: 0 0 0 65px;
+}
+
+.form-signin__input {
+    width: 95%;
+    height: 25px;
+    border-radius: 9px;
+    font-size: 80%;
+    padding: 0 0 0 10px;
+}
+
+.form-signin__letter1 {
+    margin-top: 50px;
+}
+
+.form-signin__letter2 {
+    margin-top: 20px;
+}
+.form-sigin__check {
+    margin-top: 10px;
+}
+
+
+.form-sigin__check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-sigin__check label {
+    font-size: 80%;
+}
+
+.form-sigin__check a {
+    font-size: 80%;
+    color: black;
+    text-decoration: none;
+}
+
+.form-sigin__check label input {
+    accent-color: #554f4f;
+    
+}
+
+.form-signin__button button {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #423e3e;
+    color: #fff;
+
+}
+
+.form-signin__last {
+    padding-left: 60px;
+    margin-top: 20px;
+}
+
+.form-signin__last a {
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+}
+
+.form-signin__group1 input {
+    border: none;
+    border: 1px solid #ddd4d4;
+    height: 35px;
+}

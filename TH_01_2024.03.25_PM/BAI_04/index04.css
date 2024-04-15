@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.box {
+    margin: auto;
+    margin-top: 320px;
+    width: 850px;
+    height: 120px;
+    background-color: #e8e6e6; 
+    padding-top: 5px;
+    padding-right: 5px;
+    
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+}
+.box1 ul {
+
+}
+.feature li {
+    list-style: none;
+    display: inline-block;
+}
+.feature a {
+    text-decoration: none;
+}
+.feature2 li {
+    list-style: none;
+
+}
+.feature2 h4 {
+    margin: 0 auto;
+}
+.feature2 p {
+    margin: 0 auto;
+}
+.feature2 button {
+    width: 165px;
+    border-radius: 13px;
+    border: none;
+    border: 1px solid #333;
+    background-color: #ccccca;
+} 
+.top:hover {
+    color: red;
+    cursor: pointer;
+}
+.bottom a:hover {
+    color: #47bae4;
+    text-decoration: underline;
+}
+.top {
+    display: flex;
+    margin-left: 10px;
+}
+.top span {
+    margin-left: 20px;
+}
+.top img {
+    width: 20px;
+    height: 20px;
+}
+.top1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bottom1 {
+    margin-top: 0;
+}
+.bottom {
+    display: flex;
+    margin-top: 20px;
+}
+.bottom span {
+    line-height: 60px;
+}
+.bottom img {
+    width: 50px;
+    height: 55px;
+}
+.bottom a {
+    color: #333;
+}
+.emoji {
+    display: flex;
+    cursor: pointer;
+}
+.emoji img {
+    width: 20px;
+    margin-top: 5px;
+}
+button:hover {
+    opacity: 0.8;
+}
+.emoji:hover {
+    color: #102be0;
+}
+.emoji2 {
+    margin-left: 4px;
+    text-align: left;
+}
+.emo1 {
+    color: #3b38be;
+}
+

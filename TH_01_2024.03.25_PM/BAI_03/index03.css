@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    margin: auto;
+    margin-top: 300px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ccc;
+}
+.box img {
+    width: 180px;
+    height: 150px;
+}
+.box a {
+    text-decoration: none;
+    padding-top: 5px;
+}
+.dth {
+    border: 1px solid #918d8d;
+    text-align: center;
+    margin: auto 18px;
+}
+.dth:hover {
+    border-color: #ccc;
+}
+.name {
+    margin-bottom: 0;
+    color: #d17d3d;
+}
+.name:hover {
+    color: #6a2f02;
+}
+.price {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: red;
+}
+.price:hover {
+    color: #95200b;
+
+}
+.samsung {
+
+}
+.iphone {
+
+}
+.oppo {
+
+}
+.xiaomi {
+
+}

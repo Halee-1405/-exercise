@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web03</title>
+    <link rel="stylesheet" href="web03.css">
+</head>
+<body>
+    <div class="cr-acc-box">
+        <div class="cr-acc">
+            <h1>Create Account</h1>
+        </div>
+        <div class="input-box1">
+            <div class="input-box">
+                <h3>First name *</h3>
+                <input type="text" placeholder="  enter your first name" required>
+            </div>
+            <div class="input-boxx">
+                <h3>Last name</h3>
+                <input type="text" placeholder="  enter your first name">
+            </div>
+        </div>
+        <div class="input-box2">
+            <h3>Email</h3>
+            <input type="text" placeholder="  enter your email" required>
+        </div>
+        <div class="input-box1">
+            <div class="input-box">
+                <h3>Password *</h3>
+                <input type="text" placeholder="  enter your password" required>
+            </div>
+            <div class="input-boxx">
+                <h3>Confirm Password *</h3>
+                <input type="text" placeholder="  enter your password again" required>
+            </div>
+        </div>
+        <div class="input-radio">
+            <div class="input-radio1">
+                <h3>Gender</h3>
+                <input name="gender" type="radio">
+                <label for="male">Male</label>
+                <input name="gender" type="radio">
+                <label for="female">Female</label>
+            </div>
+            <div class="input-radio2">
+                <h3>Hobbies</h3>
+                <input type="checkbox">
+                <label for="music">Music</label>
+                <input type="checkbox">
+                <label for="sports">Sports</label>
+                <input type="checkbox">
+                <label for="travel">Travel</label>
+                <input type="checkbox">
+                <label for="movies">Movies</label>
+            </div>
+        </div>    
+        <div class="input-quantity">
+            <div class="input-quantity1">
+                <h3>Source of Income</h3>
+                <select id="source_of_income" name="source_of_income">
+                    <option value="employed">Employed</option>
+                    <option value="self_employed">Self-employed</option>
+                    <option value="unemployed">Unemployed</option>
+                </select>
+            </div>
+            <div class="input-quantity2">
+                <h3>Income</h3>
+                <input type="range" name="points" min="0" max="100" value="50" class="slider" id="myRange">
+                <label><button>20k</button></label>
+            </div>
+        </div>
+        <div class="input-special">
+            <div class="input-img">
+                <h3>Upload Profile Picture</h3>
+                <input type="file">                          
+            </div>
+            <div class="input-boxxx">
+                <h3>Age</h3>
+                <input type="text" placeholder="  enter your age">
+            </div>
+        </div>
+        <div class="Bio">
+            <h3>Bio</h3>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <div class="button">
+            <button>Create</button>
+        </div>    
+    </div>
+</body>
+</html>
