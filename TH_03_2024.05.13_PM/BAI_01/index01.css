@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    margin-top: 330px;
+    padding-left: 10px ;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+h3 {
+    color: rgb(20, 227, 103);
+}
+.btn {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-top: 18px;
+    padding-left: 10px ;
+
+}
+button {
+    margin-left: 110px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(20, 227, 103);
+    cursor: pointer;
+}
