@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Input</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<button onclick="togglePassword()">Ẩn/hiện</button>
+
+<script>
+function togglePassword() {
+    var passwordInput = document.getElementById("password");
+    
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+    } else {
+        passwordInput.type = "password";
+    }
+}
+</script>
+</body>
+</html>

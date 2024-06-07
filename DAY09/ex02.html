@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Button Example</title>
+<style>
+    .container {
+        margin: 50px auto;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Select an option:</h2>
+    <select id="selectButton">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+    <br><br>
+    <button onclick="getSelectedOption()">Get Selected Option</button>
+    <br><br>
+    <p id="selectedOption"></p>
+</div>
+
+<script>
+    function getSelectedOption() {
+        var select = document.getElementById("selectButton");
+        var selectedOption = select.options[select.selectedIndex].text;
+        document.getElementById("selectedOption").innerText = "Selected Option: " + selectedOption;
+    }
+</script>
+
+</body>
+</html>
