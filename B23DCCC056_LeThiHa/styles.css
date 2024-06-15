@@ -1,0 +1,26 @@
+.calculator {
+   width: 600px;
+   margin: auto;
+   text-align: center;
+   margin-top: 300px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, button {
+   margin: 5px;
+   padding: 5px 10px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: none;
+   border: 1px solid #ccc;
+}
+
+button {
+   cursor: pointer;
+}
+
+#result {
+   margin-top: 10px;
+   font-size: 18px;
+   font-weight: bold;
+}
